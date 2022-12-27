@@ -1,33 +1,17 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport"
-				content="width=device-width, initial-scale=1.0">
-	<meta name="description"
-				content="Gulp pack for easy html/php markup development">
-	<meta name="keywords"
-				content="">
-	<link rel="shortcut icon"
-				href="img/favicons/favicon.svg"
-				type="image/svg+xml">
-	<link rel="shortcut icon"
-				href="img/favicons/favicon.webp"
-				type="image/webp">
-	<link rel="shortcut icon"
-				href="img/favicons/favicon.png"
-				type="image/x-icon">
-	<link rel="stylesheet"
-				href="css/libs.min.css">
-	<link rel="stylesheet"
-				href="css/style.min.css">
-	<title>Easy-webdev-startpack v3.0</title>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Vercel</title>
 </head>
-
-
 <body>
-	<header class="header">
+    <style>
+        @font-face{font-family:Inter;src:local("Inter-Light"),url(fonts/Inter-Light.ttf) format("opentype");font-weight:300;font-style:normal;font-display:swap}@font-face{font-family:Inter;src:local("Inter-Medium"),url(fonts/Inter-Medium.ttf) format("opentype");font-weight:500;font-style:normal;font-display:swap}@font-face{font-family:Inter;src:local("Inter-Regular"),url(fonts/Inter-Regular.ttf) format("opentype");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:Inter;src:local("Inter-Bold"),url(fonts/Inter-Bold.ttf) format("opentype");font-weight:700;font-style:normal;font-display:swap}.header{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;padding-right:24px;position:relative}.header-left{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.header-menu{-webkit-box-shadow:0 2px 8px 0 rgba(0,0,0,.1490196078);box-shadow:0 2px 8px 0 rgba(0,0,0,.1490196078);border-radius:0 0 35px;padding:8px 12px;border:1px solid #eaeaea;width:72px;height:72px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;z-index:30;background:#fff}.header-menu-open,.header-menu.active .header-menu-close{display:none}.header-menu.active .header-menu-open{display:block}.header-menu:hover{background:#ecb100;cursor:pointer}.header-menu:hover svg{fill:#fff!important}.header-logo{max-width:120px;width:100%;margin-left:20px}.header-logo img{width:100%;height:38px;-o-object-fit:contain;object-fit:contain}.header-center{-webkit-box-align:center;-ms-flex-align:center;align-items:center;display:none}@media(min-width:768px){.header-center{display:-webkit-box;display:-ms-flexbox;display:flex}}.header-center-item{padding:12px 24px 12px 16px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;background:#fcfcfc;border:1px solid #e7e7e7;margin-left:12px}.header-center-item span{margin-left:8px;font-weight:500;font-size:14px}.header-center-item:hover{background:#ecb100;color:#fff;cursor:pointer}.header-right{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.header-right-search{padding:12px 20px 12px 16px;min-width:48px;border-radius:999px;background:#fcfcfc;border:1px solid #e7e7e7;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.header-right-search span{margin-left:8px;font-weight:500;font-size:14px}.header-right-search:hover{background:#ecb100;color:#fff;cursor:pointer}.header-right-account{padding:6px 16px;border-radius:999px;background:#fcfcfc;border:1px solid #e7e7e7;margin-left:12px}.header-right-account:hover{background:#ecb100;cursor:pointer}.header .gamburger{position:fixed;left:0;right:0;top:75px;bottom:0;width:100%;background:#fcfcfc;z-index:25;overflow:hidden;height:0;-webkit-transition:.3s;-o-transition:.3s;transition:.3s}.header .gamburger-container{display:-webkit-box;display:-ms-flexbox;display:flex;height:100%;position:relative;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}@media(min-width:768px){.header .gamburger{top:0}.header .gamburger-container{-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}}.header .gamburger-item{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:start;-ms-flex-align:start;align-items:flex-start;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;padding-left:24px}@media(min-width:768px){.header .gamburger-item{position:absolute;top:30%;left:50%;-webkit-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%);-webkit-box-align:center;-ms-flex-align:center;align-items:center}.header .gamburger-block{border-right:1px solid #d4d8d9;width:25%}}.header .gamburger-block{position:relative;-webkit-transition:.3s;-o-transition:.3s;transition:.3s}.header .gamburger-block:last-child{border-top:none}.header .gamburger-block:hover{background:#ecb100;-webkit-transition:.3s;-o-transition:.3s;transition:.3s;cursor:pointer}.header .gamburger-block:hover svg{fill:#fff!important}.header .gamburger-block:hover svg path{stroke:#fff!important}.header .gamburger-block:hover .gamburger__link{color:#000;-webkit-transition:.3s;-o-transition:.3s;transition:.3s}.header .gamburger-name{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row}@media(min-width:768px){.header .gamburger-name{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}}.header .gamburger__link{margin-top:8px;color:#fff;-webkit-transition:.3s;-o-transition:.3s;transition:.3s;-ms-flex-item-align:start;align-self:flex-start;padding-left:42px}.header .gamburger__link:hover{text-decoration:underline}.header .gamburger__title{font-size:20px;color:#000;margin-left:12px}@media(min-width:768px){.header .gamburger__link{padding-left:0}.header .gamburger__title{margin-bottom:18px;margin-left:0}}.header .gamburger-footer{position:absolute;bottom:25px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;left:50%;-webkit-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%)}.header .gamburger-footer-link{padding:6px 16px;border-radius:999px;background:#fcfcfc;border:1px solid #e7e7e7;width:auto;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;height:48px;margin-left:12px}.header .gamburger-footer-link span{margin-left:8px;font-weight:500;font-size:14px;color:#000}.header .gamburger-footer-link:hover{background:#ecb100;color:#fff;cursor:pointer}.header .gamburger-footer-link:hover svg{fill:#fff!important;stroke:#fff!important}.header .gamburger-footer-link:hover svg path{fill:#fff!important}.header .gamburger.active{height:100%;-webkit-transition:.3s;-o-transition:.3s;transition:.3s}/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */html{line-height:1.15;-webkit-text-size-adjust:100%}details,main{display:block}h1{font-size:2em}hr{-webkit-box-sizing:content-box;box-sizing:content-box;height:0;overflow:visible}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}a{background-color:rgba(0,0,0,0);text-decoration:none}abbr[title]{border-bottom:none;text-decoration:underline;-webkit-text-decoration:underline dotted;text-decoration:underline dotted}b,strong{font-weight:bolder}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:ButtonText dotted 1px}fieldset{padding:.35em .75em .625em}legend{-webkit-box-sizing:border-box;box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{vertical-align:baseline}textarea{overflow:auto}[type=checkbox],[type=radio]{-webkit-box-sizing:border-box;box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}[hidden],template{display:none}*,::after,::before{-webkit-box-sizing:border-box;box-sizing:border-box}*{font-family:Inter,sans-serif}html{font-size:16px}body,html{min-height:100%;position:relative;background:#fcfcfc}body{margin:0;font-size:1rem}.main{padding-right:16px;padding-left:16px}@media(min-width:768px){.main{padding-right:72px;padding-left:72px}}h1,h2,h3,h4,h5,h6,li,ol,p,ul{margin:0}.container{max-width:1300px;width:100%;margin-right:auto;margin-left:auto}
+    </style>
+    <header class="header">
     <div class="header-left">
         <div class="header-menu">
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" x="0" y="0" viewBox="0 0 384.97 384.97"
@@ -156,181 +140,329 @@
     </div>
 </header>
 
-	<main class="main">
-		<div class="container">
-			<div class="coming-soon">
-				<svg xmlns="http://www.w3.org/2000/svg" version="1.1" x="0" y="0" viewBox="0 0 512 512" xml:space="preserve" height="24px" width="22px" class="" role="img" style="fill: #ECB100;">
+    <main class="main">
+        <div class="container">
+            <style>
+                .coming-soon{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;padding:8px}.coming-soon h4{font-weight:700;font-size:28px;margin-left:8px;color:#000}.coming-soon a{padding:12px 16px 12px 20px;background:#fcfcfc;border:1px solid #e7e7e7;border-radius:999px;margin-left:8px}.coming-soon a span{font-weight:500;font-size:14px;color:#000}.coming-soon a:hover{background:#ecb100;color:#fff;cursor:pointer}
+            </style>
+            <div class="coming-soon">
+                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" x="0" y="0" viewBox="0 0 512 512" xml:space="preserve" height="24px" width="22px" class="" role="img" style="fill: #ECB100;">
 				<path d="M492.408 210.307c10.917-.337 19.592-9.284 19.592-20.206v-77.338c0-11.164-9.051-20.216-20.216-20.216H20.216C9.051 92.548 0 101.599 0 112.763v77.287c0 11.164 9.051 20.216 20.216 20.216 25.218 0 45.734 20.516 45.734 45.734s-20.516 45.734-45.734 45.734C9.051 301.734 0 310.786 0 321.95v77.287c0 11.164 9.051 20.216 20.216 20.216h471.569c11.164 0 20.216-9.051 20.216-20.216v-77.338c0-10.922-8.675-19.869-19.592-20.206-24.836-.767-44.29-20.837-44.29-45.693s19.454-44.926 44.289-45.693zM162.745 379.02H40.431v-39.249c37.792-9.12 65.95-43.218 65.95-83.771 0-40.552-28.158-74.652-65.95-83.772v-39.249h122.314V379.02zm269.304-62.995c10.997 11.315 24.617 19.251 39.521 23.217v39.778H203.176V132.979h268.393v39.778c-14.904 3.966-28.524 11.903-39.521 23.217-15.709 16.164-24.361 37.482-24.361 60.027-.001 22.543 8.652 43.86 24.362 60.024z"></path>
-					<path d="M372.235 198.673H246.198c-11.164 0-20.216 9.051-20.216 20.216s9.051 20.216 20.216 20.216h126.037c11.164 0 20.216-9.051 20.216-20.216s-9.052-20.216-20.216-20.216zm0 74.222H246.198c-11.164 0-20.216 9.051-20.216 20.216s9.051 20.216 20.216 20.216h126.037c11.164 0 20.216-9.051 20.216-20.216s-9.052-20.216-20.216-20.216z"></path>
+                    <path d="M372.235 198.673H246.198c-11.164 0-20.216 9.051-20.216 20.216s9.051 20.216 20.216 20.216h126.037c11.164 0 20.216-9.051 20.216-20.216s-9.052-20.216-20.216-20.216zm0 74.222H246.198c-11.164 0-20.216 9.051-20.216 20.216s9.051 20.216 20.216 20.216h126.037c11.164 0 20.216-9.051 20.216-20.216s-9.052-20.216-20.216-20.216z"></path>
 			</svg>
-				<h4>Viðburðir á næstunni</h4>
-				<a href="#">
-					<span>Dagur</span>
-					<svg xmlns="http://www.w3.org/2000/svg" stroke="#EDEDEC" fill="#EDEDEC" stroke-width="0" viewBox="0 0 16 16" height="16px" width="16px" class="" role="img">
-						<path fill-rule="evenodd" d="M1 8a.5.5 0 01.5-.5h11.793l-3.147-3.146a.5.5 0 01.708-.708l4 4a.5.5 0 010 .708l-4 4a.5.5 0 01-.708-.708L13.293 8.5H1.5A.5.5 0 011 8z" stroke="none"></path>
-					</svg>
-				</a>
-			</div>
-			<div class="booking">
-				<div class="booking-item">
-					<p class="time">Föstudagur kl: 14:00</p>
-					<div class="images">
-						<picture>
-							<source srcset="./img/booking1.webp" type="image/webp">
-							<source srcset="./img/booking1.png" type="image/jpeg">
-							<img src="./img/booking1.png" alt="">
-						</picture>
-						<div class="date">
-							<span>25</span>
-							<span>Nov</span>
-						</div>
-						<div class="cost">
-							<span>5.000 kr.</span>
-						</div>
-					</div>
-					<p class="name">Níu líf - Leikhússýning</p>
-					<div class="place">
-						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 30" height="16px" width="16px" class="" role="img" style="fill: #0074FF;">
-							<path data-name="Icon material-location-on" d="M10.5 0A10.492 10.492 0 000 10.5C0 18.375 10.5 30 10.5 30S21 18.375 21 10.5A10.492 10.492 0 0010.5 0zm0 14.25a3.75 3.75 0 113.75-3.75 3.751 3.751 0 01-3.75 3.75z"></path>
-						</svg>
-						<p>Borgarleikhúsið - Reykjavík</p>
-					</div>
-				</div>
-			</div>
-			<div class="coming-soon">
-				<svg xmlns="http://www.w3.org/2000/svg" version="1.1" x="0" y="0" viewBox="0 0 512 512" xml:space="preserve" height="24px" width="22px" class="" role="img" style="fill: #ECB100;">
+                <h4>Viðburðir á næstunni</h4>
+                <a href="#">
+                    <span>Dagur</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" stroke="#EDEDEC" fill="#EDEDEC" stroke-width="0" viewBox="0 0 16 16" height="16px" width="16px" class="" role="img">
+                        <path fill-rule="evenodd" d="M1 8a.5.5 0 01.5-.5h11.793l-3.147-3.146a.5.5 0 01.708-.708l4 4a.5.5 0 010 .708l-4 4a.5.5 0 01-.708-.708L13.293 8.5H1.5A.5.5 0 011 8z" stroke="none"></path>
+                    </svg>
+                </a>
+            </div>
+            <style>.booking{display:grid;grid-template-columns:repeat(1,1fr);grid-column-gap:10px;grid-row-gap:16px;margin-top:24px;padding-bottom:72px;max-width:450px;width:100%;margin-left:auto;margin-right:auto}@media(min-width:690px){.booking{grid-template-columns:repeat(2,1fr);max-width:none}}@media(min-width:992px){.booking{grid-template-columns:repeat(3,1fr)}}@media(min-width:1200px){.booking{grid-template-columns:repeat(4,1fr)}}.booking-item .time{font-size:18px;color:#d4d8d9}.booking-item .images{position:relative;border-radius:12px;margin-top:12px;height:150px}.booking-item .images img{width:100%;-o-object-fit:cover;object-fit:cover;border-radius:12px;height:100%}.booking-item .images .date{position:absolute;left:15px;top:15px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center;background:rgba(255,255,255,.9019607843);-webkit-box-shadow:0 4px 16px 0 rgba(0,0,0,.2);box-shadow:0 4px 16px 0 rgba(0,0,0,.2);border-radius:12px;padding:8px 12px}.booking-item .images .date span{font-size:14px;color:#0070f3}.booking-item .images .cost{position:absolute;right:15px;bottom:15px;background:rgba(255,255,255,.9019607843);-webkit-box-shadow:0 4px 16px 0 rgba(0,0,0,.2);box-shadow:0 4px 16px 0 rgba(0,0,0,.2);border-radius:12px;padding:8px 12px}.booking-item .images .cost span{font-size:14px;color:#0070f3}.booking-item .name{font-size:14px;font-weight:600;text-align:left;margin-top:8px;padding:8px}.booking-item .place{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;margin-top:8px}.booking-item .place p{color:#d4d8d9}/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}details,main{display:block}h1{font-size:2em;margin:.67em 0}hr{-webkit-box-sizing:content-box;box-sizing:content-box;height:0;overflow:visible}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}a{background-color:rgba(0,0,0,0)}abbr[title]{border-bottom:none;text-decoration:underline;-webkit-text-decoration:underline dotted;text-decoration:underline dotted}b,strong{font-weight:bolder}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:ButtonText dotted 1px}fieldset{padding:.35em .75em .625em}legend{-webkit-box-sizing:border-box;box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{vertical-align:baseline}textarea{overflow:auto}[type=checkbox],[type=radio]{-webkit-box-sizing:border-box;box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}[hidden],template{display:none}</style>
+            <div class="booking">
+                <div class="booking-item">
+                    <p class="time">Föstudagur kl: 14:00</p>
+                    <div class="images">
+                        <picture>
+                            <source srcset="./img/booking1.webp" type="image/webp">
+                            <source srcset="./img/booking1.png" type="image/jpeg">
+                            <img src="./img/booking1.png" alt="">
+                        </picture>
+                        <div class="date">
+                            <span>25</span>
+                            <span>Nov</span>
+                        </div>
+                        <div class="cost">
+                            <span>5.000 kr.</span>
+                        </div>
+                    </div>
+                    <p class="name">Níu líf - Leikhússýning</p>
+                    <div class="place">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 30" height="16px" width="16px" class="" role="img" style="fill: #0074FF;">
+                            <path data-name="Icon material-location-on" d="M10.5 0A10.492 10.492 0 000 10.5C0 18.375 10.5 30 10.5 30S21 18.375 21 10.5A10.492 10.492 0 0010.5 0zm0 14.25a3.75 3.75 0 113.75-3.75 3.751 3.751 0 01-3.75 3.75z"></path>
+                        </svg>
+                        <p>Borgarleikhúsið - Reykjavík</p>
+                    </div>
+                </div>
+                <div class="booking-item">
+                    <p class="time">Föstudagur kl: 14:00</p>
+                    <div class="images">
+                        <picture>
+                            <source srcset="./img/booking2.webp" type="image/webp">
+                            <source srcset="./img/booking2.png" type="image/jpeg">
+                            <img src="./img/booking2.png" alt="">
+                        </picture>
+                        <div class="date">
+                            <span>01</span>
+                            <span>Des</span>
+                        </div>
+                        <div class="cost">
+                            <span>5.000 kr.</span>
+                        </div>
+                    </div>
+                    <p class="name">Eyþór Ingi - Hátíðartónleikar </p>
+                    <div class="place">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 30" height="16px" width="16px" class="" role="img" style="fill: #0074FF;">
+                            <path data-name="Icon material-location-on" d="M10.5 0A10.492 10.492 0 000 10.5C0 18.375 10.5 30 10.5 30S21 18.375 21 10.5A10.492 10.492 0 0010.5 0zm0 14.25a3.75 3.75 0 113.75-3.75 3.751 3.751 0 01-3.75 3.75z"></path>
+                        </svg>
+                        <p>Borgarnes</p>
+                    </div>
+                </div>
+                <div class="booking-item">
+                    <p class="time">Föstudagur kl: 14:00</p>
+                    <div class="images">
+                        <picture>
+                            <source srcset="./img/booking3.webp" type="image/webp">
+                            <source srcset="./img/booking3.png" type="image/jpeg">
+                            <img src="./img/booking3.png" alt="">
+                        </picture>
+                        <div class="date">
+                            <span>11</span>
+                            <span>Des</span>
+                        </div>
+                        <div class="cost">
+                            <span>5.000 kr.</span>
+                        </div>
+                    </div>
+                    <p class="name">Jóhanna Guðrún - Jólatónleikar</p>
+                    <div class="place">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 30" height="16px" width="16px" class="" role="img" style="fill: #0074FF;">
+                            <path data-name="Icon material-location-on" d="M10.5 0A10.492 10.492 0 000 10.5C0 18.375 10.5 30 10.5 30S21 18.375 21 10.5A10.492 10.492 0 0010.5 0zm0 14.25a3.75 3.75 0 113.75-3.75 3.751 3.751 0 01-3.75 3.75z"></path>
+                        </svg>
+                        <p>Harpa, Reykjavík</p>
+                    </div>
+                </div>
+                <div class="booking-item">
+                    <p class="time">Föstudagur kl: 14:00</p>
+                    <div class="images">
+                        <picture>
+                            <source srcset="./img/booking3.webp" type="image/webp">
+                            <source srcset="./img/booking3.png" type="image/jpeg">
+                            <img src="./img/booking3.png" alt="">
+                        </picture>
+                        <div class="date">
+                            <span>11</span>
+                            <span>Des</span>
+                        </div>
+                        <div class="cost">
+                            <span>5.000 kr.</span>
+                        </div>
+                    </div>
+                    <p class="name">Eyþór Ingi - Hátíðartónleikar í Borgarnesi</p>
+                    <div class="place">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 30" height="16px" width="16px" class="" role="img" style="fill: #0074FF;">
+                            <path data-name="Icon material-location-on" d="M10.5 0A10.492 10.492 0 000 10.5C0 18.375 10.5 30 10.5 30S21 18.375 21 10.5A10.492 10.492 0 0010.5 0zm0 14.25a3.75 3.75 0 113.75-3.75 3.751 3.751 0 01-3.75 3.75z"></path>
+                        </svg>
+                        <p>Harpa, Reykjavík</p>
+                    </div>
+                </div>
+            </div>
+            <div class="coming-soon">
+                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" x="0" y="0" viewBox="0 0 512 512" xml:space="preserve" height="24px" width="22px" class="" role="img" style="fill: #ECB100;">
 				<path d="M492.408 210.307c10.917-.337 19.592-9.284 19.592-20.206v-77.338c0-11.164-9.051-20.216-20.216-20.216H20.216C9.051 92.548 0 101.599 0 112.763v77.287c0 11.164 9.051 20.216 20.216 20.216 25.218 0 45.734 20.516 45.734 45.734s-20.516 45.734-45.734 45.734C9.051 301.734 0 310.786 0 321.95v77.287c0 11.164 9.051 20.216 20.216 20.216h471.569c11.164 0 20.216-9.051 20.216-20.216v-77.338c0-10.922-8.675-19.869-19.592-20.206-24.836-.767-44.29-20.837-44.29-45.693s19.454-44.926 44.289-45.693zM162.745 379.02H40.431v-39.249c37.792-9.12 65.95-43.218 65.95-83.771 0-40.552-28.158-74.652-65.95-83.772v-39.249h122.314V379.02zm269.304-62.995c10.997 11.315 24.617 19.251 39.521 23.217v39.778H203.176V132.979h268.393v39.778c-14.904 3.966-28.524 11.903-39.521 23.217-15.709 16.164-24.361 37.482-24.361 60.027-.001 22.543 8.652 43.86 24.362 60.024z"></path>
-					<path d="M372.235 198.673H246.198c-11.164 0-20.216 9.051-20.216 20.216s9.051 20.216 20.216 20.216h126.037c11.164 0 20.216-9.051 20.216-20.216s-9.052-20.216-20.216-20.216zm0 74.222H246.198c-11.164 0-20.216 9.051-20.216 20.216s9.051 20.216 20.216 20.216h126.037c11.164 0 20.216-9.051 20.216-20.216s-9.052-20.216-20.216-20.216z"></path>
+                    <path d="M372.235 198.673H246.198c-11.164 0-20.216 9.051-20.216 20.216s9.051 20.216 20.216 20.216h126.037c11.164 0 20.216-9.051 20.216-20.216s-9.052-20.216-20.216-20.216zm0 74.222H246.198c-11.164 0-20.216 9.051-20.216 20.216s9.051 20.216 20.216 20.216h126.037c11.164 0 20.216-9.051 20.216-20.216s-9.052-20.216-20.216-20.216z"></path>
 			</svg>
-				<h4>Viðburðir á næstunni</h4>
-				<a href="#">
-					<span>Dagur</span>
-					<svg xmlns="http://www.w3.org/2000/svg" stroke="#EDEDEC" fill="#EDEDEC" stroke-width="0" viewBox="0 0 16 16" height="16px" width="16px" class="" role="img">
-						<path fill-rule="evenodd" d="M1 8a.5.5 0 01.5-.5h11.793l-3.147-3.146a.5.5 0 01.708-.708l4 4a.5.5 0 010 .708l-4 4a.5.5 0 01-.708-.708L13.293 8.5H1.5A.5.5 0 011 8z" stroke="none"></path>
-					</svg>
-				</a>
-			</div>
-			<div class="booking">
-				<div class="booking-item">
-					<p class="time">Föstudagur kl: 14:00</p>
-					<div class="images">
-						<picture>
-							<source srcset="./img/booking1.webp" type="image/webp">
-							<source srcset="./img/booking1.png" type="image/jpeg">
-							<img src="./img/booking1.png" alt="">
-						</picture>
-						<div class="date">
-							<span>25</span>
-							<span>Nov</span>
-						</div>
-						<div class="cost">
-							<span>5.000 kr.</span>
-						</div>
-					</div>
-					<p class="name">Níu líf - Leikhússýning</p>
-					<div class="place">
-						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 30" height="1em" width="1em" class="plasmic-default__svg plasmic_default__all plasmic_default__svg EventCard__svg__uAdpl" role="img" style="fill: currentcolor;"><path data-name="Icon material-location-on" d="M10.5 0A10.492 10.492 0 000 10.5C0 18.375 10.5 30 10.5 30S21 18.375 21 10.5A10.492 10.492 0 0010.5 0zm0 14.25a3.75 3.75 0 113.75-3.75 3.751 3.751 0 01-3.75 3.75z"></path></svg>
-						<p>Borgarleikhúsið - Reykjavík</p>
-					</div>
-				</div>
-			</div>
-			<footer class="footer">
-    <div class="footer-social">
-        <div class="footer-social__item">
-            <picture>
-                <source srcset="./img/logo.webp" type="image/webp">
-                <source srcset="./img/logo.png" type="image/jpeg">
-                <img src="./img/logo.png" alt="">
-            </picture>
+                <h4>Viðburðir á næstunni</h4>
+                <a href="#">
+                    <span>Dagur</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" stroke="#EDEDEC" fill="#EDEDEC" stroke-width="0" viewBox="0 0 16 16" height="16px" width="16px" class="" role="img">
+                        <path fill-rule="evenodd" d="M1 8a.5.5 0 01.5-.5h11.793l-3.147-3.146a.5.5 0 01.708-.708l4 4a.5.5 0 010 .708l-4 4a.5.5 0 01-.708-.708L13.293 8.5H1.5A.5.5 0 011 8z" stroke="none"></path>
+                    </svg>
+                </a>
+            </div>
+            <div class="booking">
+                <div class="booking-item">
+                    <p class="time">Föstudagur kl: 14:00</p>
+                    <div class="images">
+                        <picture>
+                            <source srcset="./img/booking1.webp" type="image/webp">
+                            <source srcset="./img/booking1.png" type="image/jpeg">
+                            <img src="./img/booking1.png" alt="">
+                        </picture>
+                        <div class="date">
+                            <span>25</span>
+                            <span>Nov</span>
+                        </div>
+                        <div class="cost">
+                            <span>5.000 kr.</span>
+                        </div>
+                    </div>
+                    <p class="name">Níu líf - Leikhússýning</p>
+                    <div class="place">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 30" height="16px" width="16px" class="" role="img" style="fill: #0074FF;">
+                            <path data-name="Icon material-location-on" d="M10.5 0A10.492 10.492 0 000 10.5C0 18.375 10.5 30 10.5 30S21 18.375 21 10.5A10.492 10.492 0 0010.5 0zm0 14.25a3.75 3.75 0 113.75-3.75 3.751 3.751 0 01-3.75 3.75z"></path>
+                        </svg>
+                        <p>Borgarleikhúsið - Reykjavík</p>
+                    </div>
+                </div>
+                <div class="booking-item">
+                    <p class="time">Föstudagur kl: 14:00</p>
+                    <div class="images">
+                        <picture>
+                            <source srcset="./img/booking2.webp" type="image/webp">
+                            <source srcset="./img/booking2.png" type="image/jpeg">
+                            <img src="./img/booking2.png" alt="">
+                        </picture>
+                        <div class="date">
+                            <span>01</span>
+                            <span>Des</span>
+                        </div>
+                        <div class="cost">
+                            <span>5.000 kr.</span>
+                        </div>
+                    </div>
+                    <p class="name">Eyþór Ingi - Hátíðartónleikar </p>
+                    <div class="place">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 30" height="16px" width="16px" class="" role="img" style="fill: #0074FF;">
+                            <path data-name="Icon material-location-on" d="M10.5 0A10.492 10.492 0 000 10.5C0 18.375 10.5 30 10.5 30S21 18.375 21 10.5A10.492 10.492 0 0010.5 0zm0 14.25a3.75 3.75 0 113.75-3.75 3.751 3.751 0 01-3.75 3.75z"></path>
+                        </svg>
+                        <p>Borgarnes</p>
+                    </div>
+                </div>
+                <div class="booking-item">
+                    <p class="time">Föstudagur kl: 14:00</p>
+                    <div class="images">
+                        <picture>
+                            <source srcset="./img/booking3.webp" type="image/webp">
+                            <source srcset="./img/booking3.png" type="image/jpeg">
+                            <img src="./img/booking3.png" alt="">
+                        </picture>
+                        <div class="date">
+                            <span>11</span>
+                            <span>Des</span>
+                        </div>
+                        <div class="cost">
+                            <span>5.000 kr.</span>
+                        </div>
+                    </div>
+                    <p class="name">Jóhanna Guðrún - Jólatónleikar</p>
+                    <div class="place">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 30" height="16px" width="16px" class="" role="img" style="fill: #0074FF;">
+                            <path data-name="Icon material-location-on" d="M10.5 0A10.492 10.492 0 000 10.5C0 18.375 10.5 30 10.5 30S21 18.375 21 10.5A10.492 10.492 0 0010.5 0zm0 14.25a3.75 3.75 0 113.75-3.75 3.751 3.751 0 01-3.75 3.75z"></path>
+                        </svg>
+                        <p>Harpa, Reykjavík</p>
+                    </div>
+                </div>
+                <div class="booking-item">
+                    <p class="time">Föstudagur kl: 14:00</p>
+                    <div class="images">
+                        <picture>
+                            <source srcset="./img/booking3.webp" type="image/webp">
+                            <source srcset="./img/booking3.png" type="image/jpeg">
+                            <img src="./img/booking3.png" alt="">
+                        </picture>
+                        <div class="date">
+                            <span>11</span>
+                            <span>Des</span>
+                        </div>
+                        <div class="cost">
+                            <span>5.000 kr.</span>
+                        </div>
+                    </div>
+                    <p class="name">Eyþór Ingi - Hátíðartónleikar í Borgarnesi</p>
+                    <div class="place">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 30" height="16px" width="16px" class="" role="img" style="fill: #0074FF;">
+                            <path data-name="Icon material-location-on" d="M10.5 0A10.492 10.492 0 000 10.5C0 18.375 10.5 30 10.5 30S21 18.375 21 10.5A10.492 10.492 0 0010.5 0zm0 14.25a3.75 3.75 0 113.75-3.75 3.751 3.751 0 01-3.75 3.75z"></path>
+                        </svg>
+                        <p>Harpa, Reykjavík</p>
+                    </div>
+                </div>
+            </div>
+            <style>.footer{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}.footer-social{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;border-top:1px solid #d4d8d9;padding-top:24px;padding-bottom:24px;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}@media(min-width:550px){.footer-social{-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row}}.footer-social__item{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;padding:8px 0}.footer-social__item:first-child{max-width:85px;width:100%}.footer-social__item:first-child img{width:100%}.footer-social__link{padding:6px 16px;border-radius:999px;background:#fcfcfc;border:1px solid #e7e7e7;min-width:48px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;height:48px;margin-left:12px}.footer-social__link span{margin-left:8px;font-weight:500;font-size:14px;color:#000}.footer-social__link:hover{background:#ecb100;color:#fff;cursor:pointer}.footer-info{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;border-top:1px solid #d4d8d9;padding-top:24px;padding-bottom:24px;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}@media(min-width:550px){.footer-info{-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row}}.footer-info-block{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}.footer-info__link{border-radius:6px;padding:12px 24px;font-weight:500;font-size:14px;color:#000;margin-top:8px}.footer-info__link:first-child{margin-top:0}.footer-copyright{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;border-top:1px solid #d4d8d9}.footer-copyright-block{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;padding:16px 0}.footer-copyright-block a{font-weight:500;font-size:14px;color:#000;padding:6px 16px}.footer-copyright-block .hr{width:1px;height:48px;background:#d4d8d9}.footer-copyright-block span{font-size:14px;color:#535353;text-align:center}.footer-copyright-link{padding:6px 16px;border-radius:999px;background:#fcfcfc;border:1px solid #e7e7e7;width:auto;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;height:48px;margin-left:8px}.footer-copyright-link span{margin-left:8px;font-weight:500;font-size:14px;color:#000}.footer-copyright-link:hover{background:#ecb100;color:#fff;cursor:pointer}.footer-copyright-link:hover svg{fill:#fff!important;stroke:#fff!important}.footer-copyright-link:hover svg path{fill:#fff!important}/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}details,main{display:block}h1{font-size:2em;margin:.67em 0}hr{-webkit-box-sizing:content-box;box-sizing:content-box;height:0;overflow:visible}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}a{background-color:rgba(0,0,0,0)}abbr[title]{border-bottom:none;text-decoration:underline;-webkit-text-decoration:underline dotted;text-decoration:underline dotted}b,strong{font-weight:bolder}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:ButtonText dotted 1px}fieldset{padding:.35em .75em .625em}legend{-webkit-box-sizing:border-box;box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{vertical-align:baseline}textarea{overflow:auto}[type=checkbox],[type=radio]{-webkit-box-sizing:border-box;box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}[hidden],template{display:none}</style>
+            <footer class="footer">
+                <div class="footer-social">
+                    <div class="footer-social__item">
+                        <picture>
+                            <source srcset="./img/logo.webp" type="image/webp">
+                            <source srcset="./img/logo.png" type="image/jpeg">
+                            <img src="./img/logo.png" alt="">
+                        </picture>
+                    </div>
+                    <div class="footer-social__item">
+                        <a href="#" class="footer-social__link">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.281 36" height="16px" width="16px" class="" role="img" style="fill: #000000;">
+                                <path data-name="Icon awesome-facebook-f" d="M18.018 20.25l1-6.515h-6.252V9.507c0-1.782.873-3.52 3.673-3.52h2.842V.44A34.658 34.658 0 0014.237 0C9.091 0 5.723 3.12 5.723 8.769v4.965H0v6.516h5.723V36h7.043V20.25z"></path>
+                            </svg>
+                        </a>
+                        <a href="#" class="footer-social__link">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 31.518 31.511" height="16px" width="16px" class="" role="img" style="fill: #000000;">
+                                <path data-name="Icon awesome-instagram" d="M15.762 7.676a8.079 8.079 0 108.079 8.079 8.066 8.066 0 00-8.079-8.079zm0 13.331a5.252 5.252 0 115.252-5.252 5.262 5.262 0 01-5.252 5.252zM26.056 7.346a1.884 1.884 0 11-1.885-1.884 1.88 1.88 0 011.885 1.884zm5.349 1.916a9.325 9.325 0 00-2.545-6.6 9.387 9.387 0 00-6.6-2.545c-2.6-.148-10.4-.148-13 0a9.373 9.373 0 00-6.6 2.538 9.356 9.356 0 00-2.545 6.6c-.148 2.6-.148 10.4 0 13a9.325 9.325 0 002.545 6.6 9.4 9.4 0 006.6 2.545c2.6.148 10.4.148 13 0a9.325 9.325 0 006.6-2.545 9.387 9.387 0 002.545-6.6c.148-2.6.148-10.392 0-12.994zm-3.359 15.781a5.318 5.318 0 01-3 3c-2.074.823-7 .633-9.288.633s-7.221.183-9.288-.633a5.318 5.318 0 01-3-3c-.823-2.074-.633-7-.633-9.288s-.183-7.221.633-9.288a5.318 5.318 0 013-3c2.074-.823 7-.633 9.288-.633s7.221-.183 9.288.633a5.318 5.318 0 013 3c.823 2.074.633 7 .633 9.288s.189 7.221-.633 9.288z"></path>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="footer-social__item">
+                        <a href="#" class="footer-social__link">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 34.875 34.873" height="16px" width="16px" class="" role="img" style="fill: #000000;">
+                                <path data-name="Icon awesome-facebook-messenger" d="M17.476 0C7.63 0 0 7.195 0 16.915a16.531 16.531 0 005.489 12.511c.587.528.466.834.566 4.094a1.4 1.4 0 001.96 1.235c3.72-1.638 3.768-1.768 4.4-1.6 10.778 2.966 22.461-3.931 22.461-16.245C34.875 7.195 27.322 0 17.476 0zm10.493 13.016l-5.132 8.126a2.628 2.628 0 01-3.791.7l-4.084-3.056a1.055 1.055 0 00-1.266 0l-5.51 4.179a.829.829 0 01-1.2-1.1l5.13-8.128a2.627 2.627 0 013.791-.7l4.082 3.056a1.055 1.055 0 001.266 0l5.513-4.175a.827.827 0 011.2 1.1z"></path>
+                            </svg>
+                            <span>Spjallið</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-info">
+                    <div class="footer-info-block">
+                        <a href="#" class="footer-info__link">
+                            Tónleikar
+                        </a>
+                        <a href="#" class="footer-info__link">
+                            Sýningar
+                        </a>
+                    </div>
+                    <div class="footer-info-block">
+                        <a href="#" class="footer-info__link">
+                            Viðburðir
+                        </a>
+                        <a href="#" class="footer-info__link">
+                            Hvað er á næstunni?
+                        </a>
+                    </div>
+                    <div class="footer-info-block">
+                        <a href="#" class="footer-info__link">
+                            Um Okkur
+                        </a>
+                        <a href="#" class="footer-info__link">
+                            Hjálpin
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-copyright">
+                    <div class="footer-copyright-block">
+                        <a href="tel:567 8004" class="footer-copyright-link">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32.835 32.895" height="1em" width="1em" class="" role="img" style="stroke: #ECB100;">
+                                <path data-name="Icon feather-phone" d="M31.333 23.88v4.5a3 3 0 01-3.27 3 29.685 29.685 0 01-12.945-4.6 29.25 29.25 0 01-9-9A29.685 29.685 0 011.513 4.77 3 3 0 014.498 1.5h4.5a3 3 0 013 2.58 19.26 19.26 0 001.05 4.22 3 3 0 01-.675 3.165l-1.905 1.9a24 24 0 009 9l1.9-1.905a3 3 0 013.165-.675 19.26 19.26 0 004.215 1.05 3 3 0 012.585 3.045z" fill="none" stroke="#ECB100" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"></path>
+                            </svg>
+                            <span>567 8004</span>
+                        </a>
+                        <a href="mailto:midar@midix.is" class="footer-copyright-link">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 24" height="16px" width="16px" class="" role="img" style="fill: #ECB100;">
+                                <path data-name="Icon material-mail-outline" d="M27 0H3A3 3 0 00.015 3L0 21a3.009 3.009 0 003 3h24a3.009 3.009 0 003-3V3a3.009 3.009 0 00-3-3zm0 21H3V6l12 7.5L27 6zM15 10.5L3 3h24z"></path>
+                            </svg>
+                            <span>midar@midix.is</span>
+                        </a>
+                    </div>
+                    <div class="footer-copyright-block">
+                        <span>© 2022 Miðix ehf. kt. 510220-1370 Allur réttur áskilinn.</span>
+                    </div>
+                    <div class="footer-copyright-block">
+                        <a href="#">Persónuverndastefna</a>
+                        <div class="hr"></div>
+                        <a href="#">Viðskiptaskilmálar</a>
+                    </div>
+                </div>
+            </footer>
         </div>
-        <div class="footer-social__item">
-            <a href="#" class="footer-social__link">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.281 36" height="16px" width="16px" class="" role="img" style="fill: #000000;">
-                    <path data-name="Icon awesome-facebook-f" d="M18.018 20.25l1-6.515h-6.252V9.507c0-1.782.873-3.52 3.673-3.52h2.842V.44A34.658 34.658 0 0014.237 0C9.091 0 5.723 3.12 5.723 8.769v4.965H0v6.516h5.723V36h7.043V20.25z"></path>
-                </svg>
-            </a>
-            <a href="#" class="footer-social__link">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 31.518 31.511" height="16px" width="16px" class="" role="img" style="fill: #000000;">
-                    <path data-name="Icon awesome-instagram" d="M15.762 7.676a8.079 8.079 0 108.079 8.079 8.066 8.066 0 00-8.079-8.079zm0 13.331a5.252 5.252 0 115.252-5.252 5.262 5.262 0 01-5.252 5.252zM26.056 7.346a1.884 1.884 0 11-1.885-1.884 1.88 1.88 0 011.885 1.884zm5.349 1.916a9.325 9.325 0 00-2.545-6.6 9.387 9.387 0 00-6.6-2.545c-2.6-.148-10.4-.148-13 0a9.373 9.373 0 00-6.6 2.538 9.356 9.356 0 00-2.545 6.6c-.148 2.6-.148 10.4 0 13a9.325 9.325 0 002.545 6.6 9.4 9.4 0 006.6 2.545c2.6.148 10.4.148 13 0a9.325 9.325 0 006.6-2.545 9.387 9.387 0 002.545-6.6c.148-2.6.148-10.392 0-12.994zm-3.359 15.781a5.318 5.318 0 01-3 3c-2.074.823-7 .633-9.288.633s-7.221.183-9.288-.633a5.318 5.318 0 01-3-3c-.823-2.074-.633-7-.633-9.288s-.183-7.221.633-9.288a5.318 5.318 0 013-3c2.074-.823 7-.633 9.288-.633s7.221-.183 9.288.633a5.318 5.318 0 013 3c.823 2.074.633 7 .633 9.288s.189 7.221-.633 9.288z"></path>
-                </svg>
-            </a>
-        </div>
-        <div class="footer-social__item">
-            <a href="#" class="footer-social__link">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 34.875 34.873" height="16px" width="16px" class="" role="img" style="fill: #000000;">
-                    <path data-name="Icon awesome-facebook-messenger" d="M17.476 0C7.63 0 0 7.195 0 16.915a16.531 16.531 0 005.489 12.511c.587.528.466.834.566 4.094a1.4 1.4 0 001.96 1.235c3.72-1.638 3.768-1.768 4.4-1.6 10.778 2.966 22.461-3.931 22.461-16.245C34.875 7.195 27.322 0 17.476 0zm10.493 13.016l-5.132 8.126a2.628 2.628 0 01-3.791.7l-4.084-3.056a1.055 1.055 0 00-1.266 0l-5.51 4.179a.829.829 0 01-1.2-1.1l5.13-8.128a2.627 2.627 0 013.791-.7l4.082 3.056a1.055 1.055 0 001.266 0l5.513-4.175a.827.827 0 011.2 1.1z"></path>
-                </svg>
-                <span>Spjallið</span>
-            </a>
-        </div>
-    </div>
-    <div class="footer-info">
-        <div class="footer-info-block">
-            <a href="#" class="footer-info__link">
-                Tónleikar
-            </a>
-            <a href="#" class="footer-info__link">
-                Sýningar
-            </a>
-        </div>
-        <div class="footer-info-block">
-            <a href="#" class="footer-info__link">
-                Viðburðir
-            </a>
-            <a href="#" class="footer-info__link">
-                Hvað er á næstunni?
-            </a>
-        </div>
-        <div class="footer-info-block">
-            <a href="#" class="footer-info__link">
-                Um Okkur
-            </a>
-            <a href="#" class="footer-info__link">
-                Hjálpin
-            </a>
-        </div>
-    </div>
-    <div class="footer-copyright">
-        <div class="footer-copyright-block">
-            <a href="tel:567 8004" class="footer-copyright-link">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32.835 32.895" height="1em" width="1em" class="" role="img" style="stroke: #ECB100;">
-                    <path data-name="Icon feather-phone" d="M31.333 23.88v4.5a3 3 0 01-3.27 3 29.685 29.685 0 01-12.945-4.6 29.25 29.25 0 01-9-9A29.685 29.685 0 011.513 4.77 3 3 0 014.498 1.5h4.5a3 3 0 013 2.58 19.26 19.26 0 001.05 4.22 3 3 0 01-.675 3.165l-1.905 1.9a24 24 0 009 9l1.9-1.905a3 3 0 013.165-.675 19.26 19.26 0 004.215 1.05 3 3 0 012.585 3.045z" fill="none" stroke="#ECB100" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"></path>
-                </svg>
-                <span>567 8004</span>
-            </a>
-            <a href="mailto:midar@midix.is" class="footer-copyright-link">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 24" height="16px" width="16px" class="" role="img" style="fill: #ECB100;">
-                    <path data-name="Icon material-mail-outline" d="M27 0H3A3 3 0 00.015 3L0 21a3.009 3.009 0 003 3h24a3.009 3.009 0 003-3V3a3.009 3.009 0 00-3-3zm0 21H3V6l12 7.5L27 6zM15 10.5L3 3h24z"></path>
-                </svg>
-                <span>midar@midix.is</span>
-            </a>
-        </div>
-        <div class="footer-copyright-block">
-            <span>© 2022 Miðix ehf. kt. 510220-1370 Allur réttur áskilinn.</span>
-        </div>
-        <div class="footer-copyright-block">
-            <a href="#">Persónuverndastefna</a>
-            <div class="hr"></div>
-            <a href="#">Viðskiptaskilmálar</a>
-        </div>
-    </div>
-</footer>
+    </main>
 
-		</div>
-	</main>
-	<script>
-		let gamburger = document.querySelector('.gamburger')
-		if(gamburger) {
-			let menuBtn = document.querySelector('.header-menu')
-			menuBtn.addEventListener('click', ()=> {
-				menuBtn.classList.toggle('active')
-				gamburger.classList.toggle('active')
-			})
-		}
-	</script>
-	<script src="js/libs.min.js"></script>
-<script src="js/main.min.js"></script>
+
+
+    <script>
+        let gamburger = document.querySelector('.gamburger')
+        let menuBtn = document.querySelector('.header-menu')
+            menuBtn.addEventListener('click', ()=> {
+                menuBtn.classList.toggle('active')
+                gamburger.classList.toggle('active')
+            })
+    </script>
 
 </body>
-
 </html>
