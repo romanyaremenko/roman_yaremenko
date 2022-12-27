@@ -190,5 +190,14 @@
             </div>
         </div>
     </main>
+
+    <script>
+        let gamburger = document.querySelector('.gamburger')
+        let menuBtn = document.querySelector('.header-menu')
+        menuBtn.addEventListener('click', ()=> {
+            menuBtn.classList.toggle('active')
+            gamburger.classList.toggle('active')
+        })
+    </script>
 </body>
 </html>
