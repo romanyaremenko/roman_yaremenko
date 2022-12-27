@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+				content="width=device-width, initial-scale=1.0">
+	<meta name="description"
+				content="Gulp pack for easy html/php markup development">
+	<meta name="keywords"
+				content="">
+	<link rel="shortcut icon"
+				href="img/favicons/favicon.svg"
+				type="image/svg+xml">
+	<link rel="shortcut icon"
+				href="img/favicons/favicon.webp"
+				type="image/webp">
+	<link rel="shortcut icon"
+				href="img/favicons/favicon.png"
+				type="image/x-icon">
+	<link rel="stylesheet"
+				href="css/libs.min.css">
+	<link rel="stylesheet"
+				href="css/style.min.css">
+	<title>Easy-webdev-startpack v3.0</title>
+</head>
+
+
+<body>
+<header class="header">
+    <div class="header-left">
+        <div class="header-menu">
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" x="0" y="0" viewBox="0 0 384.97 384.97"
+                 xml:space="preserve" height="28px" width="28px" class="header-menu-close" role="img" style="fill: #ecb100;">
+                <path d="M12.03 84.212h360.909c6.641 0 12.03-5.39 12.03-12.03 0-6.641-5.39-12.03-12.03-12.03H12.03C5.39 60.152 0 65.541 0 72.182c0 6.641 5.39 12.03 12.03 12.03zm360.909 96.243H12.03c-6.641 0-12.03 5.39-12.03 12.03s5.39 12.03 12.03 12.03h360.909c6.641 0 12.03-5.39 12.03-12.03s-5.389-12.03-12.03-12.03zm0 120.303H12.03c-6.641 0-12.03 5.39-12.03 12.03 0 6.641 5.39 12.03 12.03 12.03h360.909c6.641 0 12.03-5.39 12.03-12.03.001-6.641-5.389-12.03-12.03-12.03z"></path>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20.953 20.953" height="28px" width="28px" class="header-menu-open" role="img" style="fill: #ecb100;">
+                <path data-name="Icon ionic-md-close" d="M20.954 2.096l-2.1-2.1-8.377 8.381L2.096 0l-2.1 2.1 8.381 8.377L0 18.858l2.1 2.1 8.377-8.381 8.381 8.381 2.1-2.1-8.381-8.381z"></path>
+            </svg>
+        </div>
+        <a href="/" class="header-logo">
+            <picture>
+                <source srcset="./img/logo.webp" type="image/webp">
+                <source srcset="./img/logo.png" type="image/jpeg">
+                <img src="./img/logo.png" alt="">
+            </picture>
+        </a>
+    </div>
+    <div class="header-center">
+        <div class="header-center-item">
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" x="0" y="0" viewBox="0 0 32 32" xml:space="preserve" height="22px" width="22px" class="" role="img" style="stroke: #000000;"><path d="M27 16c0-1.9 1.3-3.4 3-3.9V10c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v2.1c1.7.4 3 2 3 3.9s-1.3 3.4-3 3.9V22c0 1.1.9 2 2 2h24c1.1 0 2-.9 2-2v-2.1c-1.7-.5-3-2-3-3.9z" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"></path><path fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M16 10.9l1.5 3.2 3.5.5-2.5 2.4.6 3.4-3.1-1.6-3.1 1.6.6-3.4-2.5-2.4 3.5-.5z"></path></svg>
+            <span>Allir Viðburðir</span>
+        </div>
+        <div class="header-center-item">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" height="1em" width="1em" class="" role="img" style="stroke: #000000;"><g data-name="Icon feather-music" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"><path data-name="Path 23" d="M10.5 24V4.5l18-3V21"></path><path data-name="Path 24" d="M10.5 24A4.5 4.5 0 116 19.5a4.5 4.5 0 014.5 4.5z"></path><path data-name="Path 25" d="M28.5 21a4.5 4.5 0 11-4.5-4.5 4.5 4.5 0 014.5 4.5z"></path></g></svg>
+            <span>Tónleikar</span>
+        </div>
+        <div class="header-center-item">
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" x="0" y="0" viewBox="0 0 32 32" xml:space="preserve" height="1em" width="1em" class="" role="img" style="stroke: #000000;"><path d="M31 2H1v7.7c1 .2 2 .3 3 .3 5.1 0 9.6-2.2 12-5.4 2.4 3.2 6.9 5.4 12 5.4 1 0 2-.1 3-.3V2z" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"></path><path d="M12 8.7v1.7C12 15 9.2 19.2 5 21h0c1.9 2.6 3 4.8 3 8v1H1V9m0 12h4M31 9v21h-7v-1c0-3.2 1.1-5.4 3-8h0c-4.2-1.8-7-6-7-10.6V8.7M31 21h-4" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"></path><path d="M4 16h0c1.2-1.8 1.9-3.9 2-6.1M28 16h0c-1.2-1.8-1.9-3.9-2-6.1" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"></path></svg>
+            <span>Sýningar</span>
+        </div>
+    </div>
+    <div class="header-right">
+        <div class="header-right-search">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30.621 30.621" height="24px" width="24px" class="" role="img" style="stroke: #000000;"><g data-name="Icon feather-search" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"><path data-name="Path 28" d="M25.5 13.5a12 12 0 11-12-12 12 12 0 0112 12z"></path><path data-name="Path 29" d="M28.5 28.5l-6.525-6.525"></path></g></svg>
+            <span>Leita</span>
+        </div>
+        <div class="header-right-account">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 27 30" height="24px" width="24px" class="plasmic-default__svg plasmic_default__all plasmic_default__svg Navbar__svg__lqa9" role="img" style="stroke: currentcolor;"><g data-name="Icon feather-user" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"><path data-name="Path 26" d="M25.5 28.5v-3a6 6 0 00-6-6h-12a6 6 0 00-6 6v3"></path><path data-name="Path 27" d="M19.5 7.5a6 6 0 11-6-6 6 6 0 016 6z"></path></g></svg>
+        </div>
+    </div>
+    <div class="gamburger">
+        <div class="gamburger-container">
+            <div class="gamburger-block">
+                <div class="gamburger-item">
+                    <div class="gamburger-name">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" height="48px" width="32px" class="" role="img" style="stroke: #ECB100;">
+                            <g data-name="Icon feather-music" fill="none" stroke="#ECB100" stroke-linecap="round" stroke-linejoin="round" stroke-width="3">
+                                <path data-name="Path 23" d="M10.5 24V4.5l18-3V21"></path>
+                                <path data-name="Path 24" d="M10.5 24A4.5 4.5 0 116 19.5a4.5 4.5 0 014.5 4.5z"></path>
+                                <path data-name="Path 25" d="M28.5 21a4.5 4.5 0 11-4.5-4.5 4.5 4.5 0 014.5 4.5z"></path>
+                            </g>
+                        </svg>
+                        <p class="gamburger__title">Tónleikar</p>
+                    </div>
+                    <a class="gamburger__link" href="#"></a>
+                </div>
+            </div>
+
+            <div class="gamburger-block">
+                <div class="gamburger-item">
+                    <div class="gamburger-name">
+                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" x="0" y="0" viewBox="0 0 32 32" xml:space="preserve" height="48px" width="32px" class="" role="img" style="stroke: #ECB100;">
+                <path d="M27 16c0-1.9 1.3-3.4 3-3.9V10c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v2.1c1.7.4 3 2 3 3.9s-1.3 3.4-3 3.9V22c0 1.1.9 2 2 2h24c1.1 0 2-.9 2-2v-2.1c-1.7-.5-3-2-3-3.9z" fill="none" stroke="#ECB100" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"></path>
+                            <path fill="none" stroke="#ECB100" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M16 10.9l1.5 3.2 3.5.5-2.5 2.4.6 3.4-3.1-1.6-3.1 1.6.6-3.4-2.5-2.4 3.5-.5z"></path>
+            </svg>
+                        <p class="gamburger__title">Viðburðir</p>
+                    </div>
+                    <a class="gamburger__link" href="#">Íþrottir</a>
+                    <a class="gamburger__link" href="#">Hátíðir</a>
+                </div>
+            </div>
+
+            <div class="gamburger-block">
+                <div class="gamburger-item">
+                    <div class="gamburger-name">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25.009 21" height="48px" width="32px" class="" role="img" style="fill: #ECB100;">
+                            <path data-name="Sofa Chair" d="M25.009 10.5a3.5 3.5 0 00-3.5-3.5 3.43 3.43 0 00-.5.05V2.49a2.58 2.58 0 00-2.6-2.49h-12a2.42 2.42 0 00-2.4 2.49v4.56a3.45 3.45 0 00-.5-.05 3.49 3.49 0 00-1.5 6.65v2.85a2.44 2.44 0 002 2.5v2h1v-2h15v2h1v-2.08a2.56 2.56 0 002-2.42v-2.86a3.49 3.49 0 002-3.14zm-20-8a1.42 1.42 0 011.4-1.5h12a1.59 1.59 0 011.6 1.49v4.86a3.5 3.5 0 00-2 3.15V13h-11v-2.5a3.5 3.5 0 00-2-3.15zM21.489 13h-.48v1h.48a3.49 3.49 0 00.52-.05v2.55a1.59 1.59 0 01-1.6 1.5h-16a1.42 1.42 0 01-1.4-1.5v-2.55a3.45 3.45 0 00.5.05h.5v-1h-.5a2.5 2.5 0 112.5-2.5v3a.5.5 0 00.5.5h12a.5.5 0 00.5-.5v-3a2.5 2.5 0 112.48 2.5z" fill="#ECB100"></path>
+                        </svg>
+                        <p class="gamburger__title">Sýningar</p>
+                    </div>
+                    <a class="gamburger__link" href="#">Leikhús</a>
+                    <a class="gamburger__link" href="#">Bío</a>
+                </div>
+            </div>
+
+            <div class="gamburger-block">
+                <div class="gamburger-item">
+                    <div class="gamburger-name">
+                        <picture>
+                            <source srcset="./img/logo_gamburger.webp" type="image/webp">
+                            <source srcset="./img/logo_gamburger.png" type="image/jpeg">
+                            <img width="48px" height="48px" src="./img/logo_gamburger.png" alt="">
+                        </picture>
+                        <p class="gamburger__title">MiðiX</p>
+                    </div>
+                    <a class="gamburger__link" href="#">Um okkur</a>
+                    <a class="gamburger__link" href="#">Spurt & Svarað</a>
+                    <a class="gamburger__link" href="#">Viðskiptaskilmálar</a>
+                    <a class="gamburger__link" href="#">Persónuverndastefna</a>
+                </div>
+            </div>
+
+            <div class="gamburger-footer">
+                <a href="tel:567 8004" class="gamburger-footer-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32.835 32.895" height="1em" width="1em" class="" role="img" style="stroke: #ECB100;">
+                        <path data-name="Icon feather-phone" d="M31.333 23.88v4.5a3 3 0 01-3.27 3 29.685 29.685 0 01-12.945-4.6 29.25 29.25 0 01-9-9A29.685 29.685 0 011.513 4.77 3 3 0 014.498 1.5h4.5a3 3 0 013 2.58 19.26 19.26 0 001.05 4.22 3 3 0 01-.675 3.165l-1.905 1.9a24 24 0 009 9l1.9-1.905a3 3 0 013.165-.675 19.26 19.26 0 004.215 1.05 3 3 0 012.585 3.045z" fill="none" stroke="#ECB100" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"></path>
+                    </svg>
+                    <span>567 8004</span>
+                </a>
+                <a href="mailto:midar@midix.is" class="gamburger-footer-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 24" height="16px" width="16px" class="" role="img" style="fill: #ECB100;">
+                        <path data-name="Icon material-mail-outline" d="M27 0H3A3 3 0 00.015 3L0 21a3.009 3.009 0 003 3h24a3.009 3.009 0 003-3V3a3.009 3.009 0 00-3-3zm0 21H3V6l12 7.5L27 6zM15 10.5L3 3h24z"></path>
+                    </svg>
+                    <span>midar@midix.is</span>
+                </a>
+
+                <a href="#" class="gamburger-footer-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 34.875 34.873" height="16px" width="16px" class="" role="img" style="fill: #000000;">
+                        <path data-name="Icon awesome-facebook-messenger" d="M17.476 0C7.63 0 0 7.195 0 16.915a16.531 16.531 0 005.489 12.511c.587.528.466.834.566 4.094a1.4 1.4 0 001.96 1.235c3.72-1.638 3.768-1.768 4.4-1.6 10.778 2.966 22.461-3.931 22.461-16.245C34.875 7.195 27.322 0 17.476 0zm10.493 13.016l-5.132 8.126a2.628 2.628 0 01-3.791.7l-4.084-3.056a1.055 1.055 0 00-1.266 0l-5.51 4.179a.829.829 0 01-1.2-1.1l5.13-8.128a2.627 2.627 0 013.791-.7l4.082 3.056a1.055 1.055 0 001.266 0l5.513-4.175a.827.827 0 011.2 1.1z"></path>
+                    </svg>
+                    <span>Spjallið</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</header>
+
+<main class="main event">
+    <div class="container">
+        <div class="event-item">
+            <div class="images">
+                <picture>
+                    <source srcset="./img/event.webp" type="image/webp">
+                    <source srcset="./img/event.png" type="image/jpeg">
+                    <img src="./img/event.png" alt="">
+                </picture>
+            </div>
+            <div class="poster">
+                <div class="poster-left">
+                    <h3>Eyþór Ingi - Hátíðartónleikar</h3>
+                    <p>Hátíðartónleikar Eyþórs hafa fengið frábærar viðtökur um land allt síðustu ár. </p>
+                    <p>Hér er á ferðinni létt og jólaleg kvöldstund þar sem Eyþór Ingi kemur fram með húmorinn  píanóið og gítarinn að vopni ásamt piano snillingnum og hæfileikasprengjuni Þórði Sigurðarsyni.</p>
+                    <p>Hátíðartónleikar Eyþórs Inga einkennast af einstakri blöndu hugljúfra tóna,  gríni og jafnvel eftirhermum. Það er klárt mál að ADHD hefur aldrei verið skemmtilegra.</p>
+                    <p>Síðast seldist upp hratt og færri komust að en vildu.</p>
+                </div>
+                <div class="poster-right">
+                    <div class="date">
+                        <span>2.desember</span>
+                        -
+                        <span>3. desember</span>
+                    </div>
+                    <div class="location">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 30" height="16px" width="16px" class="" role="img" style="fill: #0074FF;">
+                            <path data-name="Icon material-location-on" d="M10.5 0A10.492 10.492 0 000 10.5C0 18.375 10.5 30 10.5 30S21 18.375 21 10.5A10.492 10.492 0 0010.5 0zm0 14.25a3.75 3.75 0 113.75-3.75 3.751 3.751 0 01-3.75 3.75z"></path>
+                        </svg>
+                        <span>Selfoss</span>
+                         <div class="line"></div>
+                        <span>Reykjavík</span>
+                    </div>
+
+                    <div class="cost">
+                        <span>5.000</span>-<span>8.000 kr.</span>
+                    </div>
+
+                    <a href="#" class="link">
+                        <span>Finna miða</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" stroke="#35290F" fill="#35290F" stroke-width="0" viewBox="0 0 16 16" height="16px" width="16px" class="" role="img">
+                            <path fill-rule="evenodd" d="M1 8a.5.5 0 01.5-.5h11.793l-3.147-3.146a.5.5 0 01.708-.708l4 4a.5.5 0 010 .708l-4 4a.5.5 0 01-.708-.708L13.293 8.5H1.5A.5.5 0 011 8z" stroke="none"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+</body>
+
+</html>
